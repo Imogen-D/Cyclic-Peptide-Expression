@@ -4,7 +4,7 @@ library(tidyr)
 library(reshape)
 
 
-Eamquant <- read.delim("~/CoxExtension/RNA/Eamquant.sf", stringsAsFactors=FALSE)
+Eamquant <- read.delim("<Eamquant.sf>", stringsAsFactors=FALSE)
 Eelquant <- read.delim("~/CoxExtension/RNA/Eelquant.sf", stringsAsFactors=FALSE)
 Fest2368quant <- read.delim("~/CoxExtension/RNA/Fest2368quant.sf", stringsAsFactors=FALSE)
 FestFl1quant <- read.delim("~/CoxExtension/RNA/FestFl1quant.sf", stringsAsFactors=FALSE)
